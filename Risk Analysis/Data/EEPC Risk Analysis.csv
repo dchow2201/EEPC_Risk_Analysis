@@ -1,0 +1,346 @@
+year settled,year filed,Agency,Amount,Category,Race,Disability,Sex,Religion,Whistleblower,National Origin,Age,Sexual Orientation,Sexual Harassment,Discrimination,Victim of Domestic Violence,Retaliation,Wrongful Termination,Disbaility,Pregnancy,HIV
+2003,2000,Police Department,9500.00,"Age,Disability",0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+2003,2003,Police Department,10000.00,"Race,National Origin",1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+2003,2003,Police Department,10000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2003,2000,Police Department,20000.00,Discrimination,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+2003,2001,Police Department,25000.00,Discrimination,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+2003,2002,Police Department,35000.00,"Gender,Race,Origin",1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2003,1999,Police Department,70000.00,Harassment,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+2003,2002,Police Department,70000.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2003,2003,Police Department,95000.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2003,1996,Police Department,115000.00,"Race,Gender",1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2003,1997,Police Department,660002.29,"Gender,Disability",0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2003,2001,Police Department,2365590.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2003,2003,Department of Education,14001.00,"Sex,Gender",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2003,2003,Department of Education,40000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2003,2001,Department of Education,40000.00,"Race,National Origin",1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+2003,2000,Department of Education,65000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2003,2003,Department of Education,65000.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2003,2000,Department of Education,80000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2003,1996,Department of Education,95000.00,"Gender,Age",0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+2003,2002,Department of Education,110000.00,"Race,National Origin",1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+2003,2003,Department of Education,135000.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2003,2000,Department of Education,150000.00,Sexual Orientation,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+2003,2003,Health & Hospitals Corporation,35000.00,Discrimination,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+2003,2003,Health & Hospitals Corporation,40000.00,National Origin,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+2003,2001,Health & Hospitals Corporation,50000.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2003,2003,Health & Hospitals Corporation,53000.00,"Race,National Origin",1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+2003,2003,Health & Hospitals Corporation,60000.00,Discrimination,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+2003,1999,Health & Hospitals Corporation,70000.00,"Race,Religion",1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+2003,2000,Health & Hospitals Corporation,125000.00,Discrimination,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+2003,2002,Department of Environmental Protection,25000.00,Nation Origin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2003,2003,Department of Environmental Protection,50000.00,Gender,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2003,2000,Department of Environmental Protection,75000.00,Whistleblower,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+2003,2000,Department of Environmental Protection,136000.00,National Origin,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+2003,2001,City University (CUNY),44000.00,Discrimination,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+2003,2002,City University (CUNY),47500.00,Religion,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+2003,2002,City University (CUNY),53000.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2003,2002,Department of Investigations,17000.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2003,2003,Department of Investigations,115000.00,Whistleblower,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+2003,2001,Department of Parks & Recreation,45000.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2003,2003,Department of Parks & Recreation,65000.00,Whistleblower,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+2003,2000,Department of Sanitation,100000.00,Discrimination,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+2003,2003,Department of Sanitation,155000.00,"Race,Age",1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+2003,2001,Department of Employment,25000.00,Discrimination,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+2003,2002,DCAS,26000.00,Age,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+2003,1997,Housing Preservation & Development,50000.00,Discrimination,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+2003,2002,Department of Transportation,65000.00,"Age,Religion",0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+2003,2001,Department of Health,75000.00,Sexual Orientation,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+2003,2002,Fire Department,112000.00,Religion,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+2003,2001,Department of Correction,250000.00,"Race,Gender,National Origin",1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+2004,2004,Police Department,75000.00,Discrimination,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+2004,2002,Police Department,124100.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2004,2003,Department of Correction,6500.00,"Race,Sex",1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2004,2002,Department of Education,5000.00,"Race,Age",1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+2004,2003,Department of Environmental Protection,35000.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2004,1999,Department of Finance,95000.00,"Sex,Gender,Age",0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+2004,2004,Fire Department,27500.00,Discrimination,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+2004,2002,Department of Juvenile Justice,75000.00,National Origin,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+2005,2005,Police Department,5000.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2005,2005,Police Department,10000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2005,2005,Police Department,15000.00,"Race,Gender",1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2005,2001,Police Department,38000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2005,1998,Police Department,50000.00,"Race,Religion",1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+2005,2005,Police Department,50000.00,"Sex,Gender",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2005,2004,Police Department,64479.00,Religion,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+2005,2004,Police Department,69000.00,Gender,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2005,2004,Police Department,190000.00,Whistleblower,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+2005,2004,Police Department,475000.00,"Sex,Gender",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2005,2003,Police Department,25246611.42,National Origin,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+2005,2005,Department of Education,4500.00,Age,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+2005,2005,Department of Education,7500.00,"National Origin,Race",1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+2005,1999,Department of Education,8500.00,"Race,Gender",1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2005,2005,Department of Education,10000.00,Age,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+2005,2003,Department of Education,12000.00,"National Origin,Race",1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+2005,2005,Department of Education,12000.00,Sex,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2005,2005,Department of Education,15000.00,"Sex,Gender",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2005,2003,Department of Education,25000.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2005,2005,Department of Education,75000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2005,1999,Department of Education,150000.00,Age,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+2005,2004,Department of Education,150000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2005,2001,Department of Education,175000.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2005,2004,Health & Hospitals Corporation,15000.00,"National Origin,Religion",0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+2005,2005,Health & Hospitals Corporation,15000.00,"Race,Gender",1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2005,2004,Health & Hospitals Corporation,20000.00,"Disability,Race",1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2005,2005,Health & Hospitals Corporation,40000.00,"Sex,Gender",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2005,2000,Health & Hospitals Corporation,42500.00,Sex,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2005,2005,Health & Hospitals Corporation,77500.00,"National Origin,Race,Rel",1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+2005,2002,Health & Hospitals Corporation,122000.00,"National Origin,Whistleblower ",0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0
+2005,2005,Fire Department,750.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2005,2005,Fire Department,8000.00,Sex,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2005,2004,Fire Department,25000.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2005,2004,Fire Department,25000.00,"Age,Disability",0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+2005,2005,Fire Department,41000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2005,2004,Fire Department,45000.00,"National Origin,Race",1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+2005,2005,HRA,15000.00,National Origin,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+2005,2005,HRA,45000.00,Sexual Orientation,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+2005,2005,HRA,120000.00,Sexual Harassment,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+2005,2004,HRA,125000.00,"Age,Race,Gender",1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+2005,2005,ACS,3000.00,"Sex,Gender",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2005,2005,ACS,40000.00,"Sex,Gender",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2005,2004,Department of Environmental Protection,7500.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2005,2002,Department of Environmental Protection,362412.25,"Age,Race",1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+2005,2005,Department of Finance,5000.00,Age,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+2005,2004,Department of Finance,20000.00,"Disability,Sex",0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2005,2005,Department of Sanitation,95000.00,"Sex,Gender",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2005,2000,Department of Sanitation,190000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2005,2004,Department of Transportation,742.36,National Origin,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+2005,2005,Department of Transportation,40000.00,National Origin,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+2005,2005,Department of Aging,37000.00,Age,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+2005,2005,Department of Buildings,37000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2005,2004,Department of Correction,650000.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2005,2005,Bronx Borough President's Office,40000.00,"National Origin,Race,Age",1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+2005,2005,City Planning Commission,13001.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2005,2004,City University (CUNY),25000.00,"Age,Race,Gender",1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+2005,2005,Housing Preservation & Development,15000.00,"National Origin,Race,Gender ",1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+2006,2006,ACS,2831.00,Religion,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+2006,2001,Department of Correction,50000.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2006,2006,Department of Correction,50000.00,Gender,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2006,2006,Department of Education,5500.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2006,2002,Department of Education,10000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2006,2006,Department of Education,15000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2006,2006,Department of Education,32000.00,Gender,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2006,2001,Department of Education,58001.00,Age,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+2006,2004,Department of Education,60000.00,"Disability,S.O.",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2006,2006,Dept. of Information Tech. and Tele.,75000.00,Sexual Orientation,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+2006,2006,Department of Sanitation,200500.00,Age,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+2006,2000,Dept. of Transportation,32000.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2006,2005,Health & Hospitals Corporation,5000.00,"Race,Gender,Disability",1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2006,2005,Health & Hospitals Corporation,5000.00,National Origin,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+2006,2006,Health & Hospitals Corporation,10000.00,"Race,Gender",1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2006,2006,Health & Hospitals Corporation,10000.00,"National Origin,Race",1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+2006,2006,Health & Hospitals Corporation,12500.00,"Age,Race,Gender",1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+2006,2006,Health & Hospitals Corporation,12500.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2006,2003,Health & Hospitals Corporation,25000.00,National Origin,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+2006,2006,Health & Hospitals Corporation,26000.00,Discrimination,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+2006,2006,Health & Hospitals Corporation,30000.00,Discrimination,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+2006,2006,Health & Hospitals Corporation,30000.00,"Race,Age,Gender,et al ",1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+2006,2006,Housing Preservation & Development,17500.00,Age,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+2006,2006,Police Department,15000.00,"Disability,Gender,Race",1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2006,2006,Police Department,65000.00,Disability ,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2007,2006,City Council,150000.00,Sexual Harassment,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+2007,2006,City Council,150000.00,Sexual Harassment,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+2007,2006,Sheriff,16250.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2007,1998,Department of Correction,509114.00,Sexual Harassment,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+2007,2006,Department of Education,3000.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2007,2006,Department of Education,15000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2007,2006,Department of Education,88600.00,Victim of Domestic Violence,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+2007,2002,Fire Department,10000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2007,2006,Fire Department,50000.00,Race & Gender,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2007,2005,Department of Health,8500.00,Sexual Orientation & Religion,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+2007,2005,Department of Homeless Services,50000.00,Discrimination,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+2007,2006,Department of Homeless Services,50000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2007,2005,Department of Homeless Services,230000.00,Sexual Harassment,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+2007,2004,Health & Hospitals Corporation,62500.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2007,2006,Health & Hospitals Corporation,80000.00,National Origin & Race,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+2007,2007,HRA,5000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2007,2007,Department of Sanitation,10500.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2008,2008,ACS,1500.00,"Disability,Race,National Origin,Sex,Gender",1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+2008,2008,ACS,30000.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2008,2008,Department of Education,75000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2008,2008,Department of Aging,156000.00,"Sex,Gender,National Origin",0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+2008,2008,Department of Correction,3000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2008,2008,Department of Correction,5000.00,"Disability,Race",1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2008,2008,Department of Correction,8000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2008,2008,Department of Correction,9000.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2008,2008,Department of Correction,10000.00,"Age,Race,National Origin",1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+2008,2008,Department of Correction,15000.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2008,2008,Department of Correction,58000.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2008,2006,Department of Correction,173868.00,"Sex,Gender",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2008,2008,Department of Design and Construction,20000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2008,2007,Department of Education,500.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2008,2008,Department of Education,1500.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2008,2007,Department of Education,5000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2008,2008,Department of Education,7500.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2008,2008,Department of Education,10000.00,Discrimination,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+2008,2007,Department of Education,10000.00,"Race,National Origin",1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+2008,1999,Department of Education,30000.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2008,2005,Department of Education,90000.00,Sexual Orientation,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+2008,2008,Department of Environmental Protection,2500.00,"Sex,Gender",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2008,2008,Department of Environmental Protection,5000.00,"Sex,Gender,Age",0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+2008,2008,Department of Environmental Protection,50000.00,"National Origin,Race",1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+2008,2006,Department of Finance,35000.00,"Religion,National Origin,Sex,Gender",0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+2008,2007,Department of Finance,575000.00,"National Origin,Sex,Gender,Whistleblower",0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0
+2008,2008,Department of Homeless Services,12000.00,"Race,Age,Disability",1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+2008,2008,Department of Parks and Recreation,100000.00,"National Origin,Religion",0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+2008,2007,Department of Parks and Recreation,13829540.00,"Race,National Origin",1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+2008,2006,Department of Probation,30000.00,"Disability,Religion",0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+2008,2007,Department of Sanitation,2000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2008,2008,Department of Transportation,4000.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2008,2008,Department of Transportation,4000.00,"Sex,Gender",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2008,2007,Department of Transportation,20000.00,"Sex,Gender",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2008,2007,Department of Transportation,40000.00,"Race,Disability",1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2008,2007,Department of Transportation,40000.00,Discrimination,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+2008,2008,District Attorney Bronx,55000.00,Discrimination,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+2008,2007,District Attorney Queens,30000.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2008,2008,Fire Department,6000.00,"Sex,Gender,Race",1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2008,2004,Fire Department,100001.00,"Sex,Gender",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2008,2008,Health & Hospitals Corporation,1000.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2008,2008,Health & Hospitals Corporation,7500.00,"Age,Disability",0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+2008,2008,Health & Hospitals Corporation,25000.00,"Race,Disbaility",1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+2008,2008,Health & Hospitals Corporation,27500.00,Whistleblower,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+2008,2008,Health & Hospitals Corporation,30000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2008,2008,Health & Hospitals Corporation,85000.00,"Disability,Race,Whistleblower",1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+2008,2008,Health & Hospitals Corporation,250000.00,"Age,Race",1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+2008,2008,HRA,32500.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2008,2008,Police Department,12000.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2008,2008,Police Department,300000.00,"Race,Gender",1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2008,2008,Taxi & Limousine Commission,2200.00,"Sex,Gender",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2009,2006,ACS,1500.00,"Race,Age,National Origin",1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+2009,2007,Department of Aging,22000.00,"Age,Gender",0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+2009,2009,Department of Consumer Affairs,9600.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2009,2009,Department of Correction,43441.00,Age,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+2009,2009,Department of Design & Construction,25000.00,"Gender,Sexual Harassment",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+2009,2000,Department of Education,125000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2009,2005,Department of Education,590859.00,"Age,Disability",0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+2009,2006,Department of Education,75000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2009,2006,Department of Education,1500.00,Libel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2009,2006,Department of Education,5000.00,Retaliation,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2009,2007,Department of Education,175000.00,"Age,Disability",0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+2009,2008,Department of Education,15000.00,"Age,Disability",0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+2009,2008,Department of Education,145000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2009,2008,Department of Education,5000.00,"Race,National Origin",1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+2009,2008,Department of Education,50000.00,"Age,Religion,National Origin",0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0
+2009,2008,Department of Education,48667.00,"Disability,Wrongful Termination",0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+2009,2008,Department of Education,135000.00,"Age,Disability",0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+2009,2008,Department of Education,75000.00,"Disability ,Gender",0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2009,2009,Department of Education,40000.00,"Gender,Wrongful Termination",0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+2009,2009,Department of Education,238480.00,"Gender,Race,Wrongful Termination",1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+2009,2009,Department of Education,158000.00,Age,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+2009,2009,Department of Education,45000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2009,2009,Department of Education,16500.00,"Gender,Pregnancy",0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+2009,2009,Department of Education,31774.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2009,2009,Department of Education,25000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2009,2009,Department of Education,40000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2009,2006,Dept. of Information Tech. and Tele.,225000.00,"Gender,Race",1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2009,2009,Dept. of Information Tech. and Tele.,200000.00,"Race,Age,Disability",1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+2009,2009,Dept. of Information Tech. and Tele.,200000.00,"Race,Age",1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+2009,2009,Department of Juvenile Justice,2000.00,"Disability,Wrongful Termination",0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+2009,2009,Department of Juvenile Justice,3000.00,"Age,Race,National Origin",1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+2009,2004,Department of Parks & Recreation,15000.00,"Race,Sexual Harassment",1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+2009,2007,Department of Parks & Recreation,12000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2009,2008,Department of Parks & Recreation,20000.00,Sexual Harassment,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+2009,2009,Department of Parks & Recreation,2850.00,Age,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+2009,2009,Department of Parks & Recreation,60000.00,Sexual Harassment,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+2009,2008,Department of Probation,17500.00,Harassment,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+2009,2009,Department of Probation,36000.00,"Disability,HIV",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+2009,2009,Department of Probation,1000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2009,1996,Department of Sanitation,25000.00,"National Origin,Wrongful Termination",0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+2009,2008,Department of Sanitation,20000.00,"Disability,Wrongful Termination",0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+2009,2009,Department of Sanitation,15000.00,"Gender,National Origin",0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+2009,2009,Department of Transportation,15000.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2009,2003,District Attorney Kings,4577.00,Wrongful Termination,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+2009,2004,Health & Hospitals Corporation,35000.00,Gender,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2009,2004,Health & Hospitals Corporation,35000.00,Gender,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2009,2004,Health & Hospitals Corporation,35000.00,Gender,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2009,2004,Health & Hospitals Corporation,35000.00,Gender,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2009,2005,Health & Hospitals Corporation,75000.00,"Gender,Wrongful Termination",0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+2009,2007,Health & Hospitals Corporation,135000.00,Sexual Harassment,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+2009,2008,Health & Hospitals Corporation,14500.00,"Religion,National Origin",0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+2009,2009,Health & Hospitals Corporation,15000.00,"Age,Gender",0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+2009,2009,Health & Hospitals Corporation,72000.00,Sexual Harassment,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+2009,2008,Housing Preservation & Development,50000.00,"Race,Age",1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+2009,2009,Housing Preservation & Development,2000.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2009,2009,HRA,6000.00,"Race,Age,Disability,Wrongful Termination",1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0
+2009,2004,Marine Aviation,140723.00,"Disability,National Origin",0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+2009,2003,Off-Track Betting,10000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2009,2009,Sheriff,50000.00,"Sex,National Origin",0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+2010,2009,ACS,130172.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2010,ACS,15000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2010,ACS,15000.00,Gender,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2008,Department of Correction,45000.00,"Disability,Sexual Orientation",0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+2010,2008,Department of Correction,55000.00,"Disability,Sexual Orientation",0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+2010,2008,Department of Correction,70000.00,"Disability,Sexual Orientation",0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+2010,2009,Department of Correction,7500.00,"Race,Gender",1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2009,Department of Correction,45000.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2010,Department of Correction,175000.00,"Religion,National Origin",0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+2010,2004,Department of Education,250000.00,"Whistleblower,Sex Orientation,Race",1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+2010,2004,Department of Education,25000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2007,Department of Education,425000.00,Gender,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2007,Department of Education,175000.00,"Age,Disability",0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+2010,2009,Department of Education,46000.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2009,Department of Education,45000.00,Gender,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2009,Department of Education,75000.00,Age,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+2010,2009,Department of Education,2500.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2009,Department of Education,50000.00,"Gender,Disability",0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2010,Department of Education,25000.00,Gender,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2010,Department of Education,40000.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2010,Department of Education,200000.00,Whistleblower,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+2010,2010,Department of Education,2327.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2010,Department of Education,3000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2010,Department of Education,7500.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2010,Department of Education,10000.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2010,Department of Education,15000.00,Religion,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2007,Department of Environmental Protection,40000.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2009,Department of Environmental Protection,100000.00,"Age,Gender",0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+2010,2010,Department of Environmental Protection,160000.00,"Gender,Age",0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+2010,2010,Department of Environmental Protection,425000.00,Gender,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2010,Department of Environmental Protection,425000.00,Gender,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2008,Department of Health,90000.00,Whistleblower,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+2010,2009,Department of Health,90000.00,"Disability,Race,Religion",1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2009,Department of Health,150000.00,"Race,Religion",1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2010,Department of Health,100000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2010,Department of Parks & Recreation,1100.00,Gender,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2008,Department of Probation,13500.00,Sexual Orientation,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+2010,2009,Department of Transportation,20000.00,"Age,Race,Gender",1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+2010,2005,Fire Department,345000.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2010,Fire Department,115000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2010,Fire Department,150000.00,National Origin,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+2010,2009,Health & Hospitals Corporation,55000.00,"Race,Gender,National Origin",1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+2010,2009,Health & Hospitals Corporation,55000.00,"Race,Gender,National Origin",1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+2010,2009,Health & Hospitals Corporation,40000.00,Religion,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2010,Health & Hospitals Corporation,7500.00,"National Origin,Race,Religion",1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+2010,2010,Health & Hospitals Corporation,100000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2010,Health & Hospitals Corporation,45000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2010,Health & Hospitals Corporation,2000.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2010,Health & Hospitals Corporation,3000.00,Gender,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2010,Health & Hospitals Corporation,30000.00,Gender,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2010,Health & Hospitals Corporation,950000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2010,Housing Preservation & Development,58000.00,"Disability,Religion",0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2008,Department of Human Resources Administration,25000.00,Discrimination,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+2010,2005,Police Department,175000.00,Sexual Orientation,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+2010,2006,Police Department,150000.00,Religion National Origin,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+2010,2008,Police Department,60000.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2008,Police Department,152500.00,"Race,Religion,National Origin",1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+2010,2009,Police Department,12500.00,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2010,Police Department,80000.00,"Gender,Race,Sexual Orientation",1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+2010,2010,Police Department,125000.00,Sexual Orientation,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+2010,2009,Queens Borough President,98000.00,Gender,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2010,2009,Sheriff,50000.00,National Origin,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+2010,2010,Sheriff,40000.00,"Race,National Origin",1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+2002,,City University (CUNY),17451.00,"National Origin,Race,Disability",1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+2002,,City University (CUNY),17451.00,"Harassment,Retaliation",0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+2002,,Department of Citywide Administrative Services,92000.00,Disability,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2002,,Board of Education,50000.00,National Origin,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+2002,,Health & Hospitals Corporation,245000.00,"Retaliation,Race",1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2002,,Health & Hospitals Corporation,245000.00,Sex,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+2002,,Office of Management & Budget ,60000.00,National Origin,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+2002,,Department of Parks & Recreation,40000.00,"Age,Retaliation",0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+2002,,Police Department,414868.80,Sexual Harassment,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0
+2002,,Police Department,414868.80,Sexual Harassment,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0
+2002,,Police Department,414868.80,"Gender,National Origin",0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+2002,,Police Department,414868.80,Race,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2002,,Police Department,414868.80,Sexual Orientation,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+2002,,Public Administrator - Kings,165000.00,Sexual Harassment,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0
+2002,,Dept. of Information Tech. and Tele.,160000.00,"Race,Retaliation",1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2002,,Dept. of Transportation,100000.00,"Sex,Religion,National Origin",0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0

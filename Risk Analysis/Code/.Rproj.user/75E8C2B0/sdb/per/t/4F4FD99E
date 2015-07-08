@@ -1,0 +1,17 @@
+{
+    "contents" : "---\ntitle: \"EEPC\"\nauthor: \"David Chow\"\ndate: \"Tuesday, June 30, 2015\"\noutput: word_document\n---\n#Summary of the Data\n```{r}\nEEPC <- read.csv(\"../Data/EEPC Risk Analysis.csv\", stringsAsFactors=FALSE)\nsummary(EEPC$Amount)\nlibrary(moments)\nskewness(EEPC$Amount)\nkurtosis(EEPC$Amount)\n```\n\n#Severity of Loss   \n\n##Exponential Distribution   \n$f(x)=\\frac{1}{\\alpha}",
+    "created" : 1435675410384.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1194444232",
+    "id" : "4F4FD99E",
+    "lastKnownWriteTime" : 1435687166,
+    "path" : "E:/Risk Analysis/Code/EEPC.Rmd",
+    "project_path" : "EEPC.Rmd",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}

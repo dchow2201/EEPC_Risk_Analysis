@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1436272167869.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "7BC3EB44",
+    "lastKnownWriteTime" : 7741240722073845761,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "EEPC",
+        "contentUrl" : "content?title=EEPC&file=f6adb030af6a4b26ad3d951769c2c982.htm",
+        "displayedObservations" : 329,
+        "displayedVariables" : 23,
+        "totalObservations" : 329,
+        "variables" : 23
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

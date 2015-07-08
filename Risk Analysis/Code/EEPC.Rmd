@@ -1,0 +1,275 @@
+---
+title: "EEPC Aggregate Loss Model:DRAFT"
+author: "CDEEO"
+date: "Thursday, July 02, 2015"
+output: html_document
+---
+```{r,echo=FALSE}
+library(knitr)
+opts_chunk$set(echo=FALSE,message=F)
+```
+
+###Data Source: [EEPC Annual Reports 2002-2010][EEPC]
+###Summary Statistics on Cost
+1. Overall   
+```{r}
+EEPC <- read.csv("../Data/EEPC Risk Analysis.csv", stringsAsFactors=FALSE)
+Total <- read.csv("../Data/EEPC Total.csv", stringsAsFactors=FALSE)
+set.seed(123)
+
+library(moments)
+library(MASS)
+library(dplyr)
+library(GLDEX)
+
+EEPC %>% summarise(mean=mean(Amount), standard_dev=sd(Amount), 
+                   median= median(Amount),skewness=skewness(Amount),
+                   kurtosis=kurtosis(Amount))
+
+```
+
+2. By Year
+```{r,fig.height=12,fig.width=12}
+EEPC %>% group_by(year.settled) %>% 
+    summarise(mean=mean(Amount), total=sum(Amount), standard_dev=sd(Amount),
+              median= median(Amount),skewness=skewness(Amount),
+              kurtosis=kurtosis(Amount))
+par(mfrow=c(3,3))
+for(y in 2002:2010){
+    cost=EEPC[EEPC$year.settled==y,"Amount"]
+    hist(cost,col=sample(colors(),1),breaks = 25,
+         main=y,xaxt="n",
+         xlab="EEPC Law Suit Cost (in thousands)",
+         xlim=c(0,quantile(cost,.99)))
+    xrange=seq.int(0,quantile(cost,.99),length.out = 6)
+    xlabel=paste("$",round(xrange/1e3),sep="")
+    axis(1,at=xrange,labels = xlabel)
+}
+
+```
+
+             
+###Severity Loss Probability Model   
+**1. Exponential Distribution**       
+```{r}
+N=nrow(EEPC)
+exp_rate=fitdistr(EEPC$Amount,densfun = "exponential")
+exp_rate$estimate
+par(mfrow=c(1,1))
+hist(EEPC$Amount,xlim = c(0,1e6),breaks = 5e2,freq = F,
+     main="Histogram with Exponential Distribution",
+     col="green",xaxt="n",yaxt="n",
+     xlab="EEPC Law Suit Cost (in thousands)")
+xrange=seq.int(0,1e6,by = 100)
+yexp=dexp(xrange,exp_rate$estimate)
+lines(x = xrange,y = yexp,lwd=3,col="blue")
+xrange=seq.int(0,1e6,by = 2e5)
+xlabel=paste("$",xrange/1000,sep="")
+axis(1,at=xrange,labels = xlabel)
+yrange=seq.int(0,1.2e-5,by = 2e-6)
+ylabel=paste(yrange*100,"%",sep="")
+axis(2,at=yrange,labels = ylabel)
+
+
+```
+
+###Diagnostic against Exponential Model  
+**QQplot**    
+```{r}
+rand_exp=rexp(1e5,rate = exp_rate$estimate)
+exprange=c(0,1e6)
+qqplot(EEPC$Amount,rand_exp,col="darkgrey",pch=19,xlim=exprange,ylim=exprange,
+       ylab="Exponential Distribution",xlab="EEPC Law Suit Costs",main="QQ-plot")
+abline(0,1,col="red",lty=3,lwd=2)
+```
+
+###Kolmogorov-Smirnov (K-S) test   
+```{r}
+ks.gof(EEPC$Amount,"pexp",rate = exp_rate$estimate)
+```
+
+**Both diagnostics show that there is a signifcant departure from the Exponential Model** 
+
+
+###2. LogNormal Distribution
+```{r}
+EEPC$LogAmount=log(EEPC$Amount)
+lnorm_rate=fitdistr(EEPC$Amount,densfun = "log-normal")
+lnorm_rate$estimate
+hist(EEPC$Amount,xlim = c(0,1e6),breaks = 5e2,freq = F,
+     main="Histogram with Log-Normal Distribution",
+     col="yellow",xaxt="n",yaxt="n",ylim=c(0,1.4e-5),
+     xlab="EEPC Law Suit Cost (in thousands)")
+xrange=seq.int(0,1e6,by = 100)
+ylog=dlnorm(xrange,meanlog = lnorm_rate$estimate["meanlog"],
+            sdlog = lnorm_rate$estimate["sdlog"])
+lines(x = xrange,y = ylog,lwd=3,col="purple")
+xrange=seq.int(0,1e6,by = 2e5)
+xlabel=paste("$",xrange/1000,sep="")
+axis(1,at=xrange,labels = xlabel)
+yrange=seq.int(0,1.4e-5,by = 2e-6)
+ylabel=paste(yrange*100,"%",sep="")
+axis(2,at=yrange,labels = ylabel)
+
+
+norm_rate=fitdistr(EEPC$LogAmount,densfun = "normal")
+hist(EEPC$LogAmount,freq = F,xlim = c(6,14),breaks = 20,
+     main="Histogram with Normal Distribution",
+     col="pink",yaxt="n",
+     xlab="EEPC Law Suit Cost (Log Scale)")
+xrange=seq.int(0,18,by = .1)
+ynorm=dnorm(xrange,mean = norm_rate$estimate["mean"],
+            sd = norm_rate$estimate["sd"])
+lines(x = xrange,y = ynorm,lwd=3,col="darkgreen")
+
+yrange=seq.int(0,0.4,by = 0.05)
+ylabel=paste(yrange*100,"%",sep="")
+axis(2,at=yrange,labels = ylabel,las=2,cex=.5)
+
+```
+
+###Diagnostic   
+
+```{r}
+rand_lnorm=rlnorm(1e5,meanlog = lnorm_rate$estimate["meanlog"],
+                 sdlog = lnorm_rate$estimate["sdlog"])
+exprange=c(0,1e6)
+qqplot(EEPC$Amount,rand_lnorm,
+       col="darkblue",pch=19,xlim=exprange,ylim=exprange,
+       ylab="LogNormal Distribution",xlab="EEPC Law Suit Costs",main="QQ-plot")
+abline(0,1,col="red",lty=3,lwd=3)
+```
+
+###Kolmogorov-Smirnov (K-S) test   
+```{r}
+ks.gof(EEPC$Amount,"plnorm",meanlog = lnorm_rate$estimate["meanlog"],
+       sdlog = lnorm_rate$estimate["sdlog"])
+```
+
+**Diagnostics show that there is not a significant level of evidence to reject the LogNormal Model for Severity of Loss.**       
+
+###Loss Frequence Model
+             
+```{r}
+year=EEPC %>% group_by(year.settled) %>% summarise(AvgAmount=mean(Amount),N=n())
+year %>% summarise(Avg=mean(N),Var=var(N),Median=median(N),
+                   skewness(N),kurtosis(N))
+barplot(year$N,names.arg =year$year.settled,col=sample(colors(),1),
+        xlab="year",main="Number of cases settled")
+```
+
+**Because sample variance is much larger than sample mean: use Negative Binomial**                
+```{r}
+nb_param=fitdistr(year$N,"Negative Binomial")
+nb_param$estimate
+```
+
+
+###Kolmogorov-Smirnov (K-S) test   
+```{r}
+ks.gof(year$N,"pnbinom",size = nb_param$estimate["size"],
+       mu = nb_param$estimate["mu"])
+```
+
+**Diagnostics show that there is not a significant level of evidence to reject the Negative Binomial Model for Loss Frequency.**     
+
+###Aggregated Loss Model using Monte Carlo Simulation
+
+```{r}
+total_cost=rep(0,5e4)
+for(j in 1:5e4){
+    num_cases=rnbinom(n=1,size = nb_param$estimate["size"],
+                      mu = nb_param$estimate["mu"])
+    law_suit_cost=0
+    for(i in 1:num_cases){
+        law_suit_cost=law_suit_cost+
+            rlnorm(n = 1,meanlog=lnorm_rate$estimate["meanlog"],
+                   sdlog = lnorm_rate$estimate["sdlog"])
+    }
+    total_cost[j]=law_suit_cost
+}
+
+summary(total_cost)
+lnorm_param=fitdistr(total_cost,densfun = "log-normal")
+lnorm_param$estimate
+
+hist(total_cost,breaks = 50,freq = F,
+     main="Aggregated Loss Distribution",
+     col="grey",ylim=c(0,2.5e-7),xaxt="n",#yaxt="n",
+     xlab="Total Cost (in millions)")
+xrange=seq.int(0,1e8,by = 100)
+ylnorm=dlnorm(xrange,meanlog = lnorm_param$estimate["meanlog"],
+            sdlog = lnorm_param$estimate["sdlog"])
+lines(x = xrange,y = ylnorm,lwd=3,col="darkgreen")
+xrange=seq.int(0,3.5e7,by = 5e6)
+xlabel=paste("$",xrange/1e6,sep="")
+axis(1,at=xrange,labels = xlabel)
+
+```        
+
+###Comparsion of the Simulated Aggregated Loss with Actual Loss   
+
+```{r}
+library(gridExtra)
+Aggregated_Loss=c(summary(total_cost),skewness=round(skewness(total_cost),1),
+                  kurtosis=round(kurtosis(total_cost),1))
+Acutal_Loss=c(summary(Total$Total),skewness=round(skewness(Total$Total),1),
+                  kurtosis=round(kurtosis(Total$Total),1))
+g=data.frame(Aggregated_Loss,Acutal_Loss)
+g=tableGrob(g)
+grid.draw(g)
+```
+
+###Actual Aggregated Loss
+```{r}
+hist(Total$Total,breaks = 20,freq = F,
+     main="Actual Aggregated Loss",
+     col="orchid",xaxt="n",#yaxt="n",
+     xlab="Total Cost (in millions)")
+
+xrange=seq.int(0,3.5e7,by = 5e6)
+xlabel=paste("$",xrange/1e6,sep="")
+axis(1,at=xrange,labels = xlabel)
+```        
+      
+###Diagnostic of the Aggregated Loss Model Against Actual Aggregated Loss    
+
+```{r}
+rand_lnorm=rlnorm(1e5,meanlog = lnorm_param$estimate["meanlog"],
+                  sdlog = lnorm_param$estimate["sdlog"])
+exprange=c(0,2e7)
+qqplot(Total$Total,rand_lnorm,col="green",pch=19,xlim=exprange,ylim=exprange,
+       ylab="Aggregated Loss Model",xlab="Actual Aggregated Loss",main="QQ-plot")
+abline(0,1,col="red",lty=3,lwd=3)
+```
+
+###Kolmogorov-Smirnov (K-S) test     
+```{r}
+ks.gof(Total$Total,"plnorm",meanlog = lnorm_param$estimate["meanlog"],
+       sdlog = lnorm_param$estimate["sdlog"])
+```
+
+###VaR: 
+
+**The Value at Risk at 95% confident Interval for one year aggregated loss is `r paste0("$",round(quantile(total_cost,c(.95))/1e6))` millions of dollars**    
+
+**The Value at Risk at 99% confident Interval for one year aggregated loss is `r paste0("$",round(quantile(total_cost,c(.99))/1e6))` millions of dollars**   
+
+###Expected Shortfall   
+**The expected amount of aggregated loss given that the loss is beyond the confident Interval**   
+```{r}
+slice = 5e4
+slice.seq=seq(from = .95,to = 1,length.out = slice)
+
+```
+
+**The Expected Shortfall at 95% confident Interval is `r paste0("$",round(mean(quantile(total_cost,slice.seq))/1e6))` millions of dollars** 
+
+```{r}
+slice.seq=seq(from = .99,to = 1,length.out = slice)
+```
+
+**The Expected Shortfall at 99% confident Interval is `r paste0("$",round(mean(quantile(total_cost,slice.seq))/1e6))` millions of dollars**  
+
+
+[EEPC]:http://www.nyc.gov/html/eepc/html/home/annual-reports.shtml
